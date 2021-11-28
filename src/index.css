@@ -2,3 +2,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .app-container {
+    @apply w-full bg-black flex flex-col items-center justify-start
+  }
+  .container {
+    @apply w-full max-w-screen-2xl
+  }
+  .filtered {
+    @apply backdrop-filter backdrop-blur-3xl
+  }
+  .backball {
+    @apply  absolute z-0 rounded-full
+  }
+}

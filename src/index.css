@@ -11,9 +11,9 @@
     @apply w-full max-w-screen-2xl
   }
   .filtered {
-    @apply backdrop-filter backdrop-blur-3xl
+    @apply backdrop-filter backdrop-blur-3xl rounded-xl p-8
   }
   .backball {
-    @apply  absolute z-0 rounded-full
+    @apply  fixed z-0 rounded-full
   }
 }

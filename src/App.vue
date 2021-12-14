@@ -1,6 +1,6 @@
 <template>
 <div class="app-container text-white">
-  <header id="nav">
+  <header id="nav" class="py-8 w-full container">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </header>

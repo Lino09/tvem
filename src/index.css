@@ -8,10 +8,10 @@
     @apply w-full bg-black flex flex-col items-center justify-start
   }
   .container {
-    @apply w-full max-w-screen-2xl
+    @apply w-full max-w-7xl
   }
   .filtered {
-    @apply backdrop-filter backdrop-blur-3xl rounded-xl p-8
+    @apply backdrop-filter backdrop-blur-3xl rounded-xl p-8  border border-gray-200
   }
   .backball {
     @apply  fixed z-0 rounded-full
